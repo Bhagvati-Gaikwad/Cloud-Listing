@@ -1,121 +1,133 @@
-#Cloud-Listing
+# Cloud-Listing
 
-A modern web application built with TypeScript and CSS (and JavaScript), aiming to… (add short elevator-pitch here: e.g., allow users to browse & compare cloud services, list cloud providers, manage listings, etc.)
+A modern web application built with TypeScript and CSS (and JavaScript), aiming to allow users to browse & compare cloud services, list cloud providers, and manage listings.
 
-🚀 Features
+---
 
-Built with TypeScript (95.5 %) and CSS (4.3 %) per GitHub language stats. 
-GitHub
+## 🚀 Features
 
-Structured project layout with folders: app/, components/, hooks/, lib/, public/, styles/. 
-GitHub
+- Built with **TypeScript (95.5%)** and **CSS (4.3%)** per GitHub language stats.
+- Structured project layout with folders: `app/`, `components/`, `hooks/`, `lib/`, `public/`, `styles/`.
+- Configuration files include: `next.config.mjs`, `tsconfig.json`, `postcss.config.mjs`, etc.
+- Intended for listing, comparing, or managing cloud service offerings.
 
-Configuration files set up including next.config.mjs, tsconfig.json, postcss.config.mjs, etc. 
-GitHub
+---
 
-Intended for listing, comparing, or managing cloud service offerings.
+## 📁 Project Structure
 
-📁 Project Structure
-/app             — main application code  
-/components      — reusable UI components  
-/hooks           — custom React hooks & logic  
-/lib             — library utilities  
-/public          — static assets  
-/styles          — global and modular CSS  
-next.config.mjs  — Next.js configuration  
-tsconfig.json    — TypeScript configuration  
-package.json, pnpm-lock.yaml / package-lock.json — dependencies  
+```
+/app             — main application code
+/components      — reusable UI components
+/hooks           — custom React hooks & logic
+/lib             — library utilities
+/public          — static assets
+/styles          — global and modular CSS
+next.config.mjs  — Next.js configuration
+tsconfig.json    — TypeScript configuration
+package.json, pnpm-lock.yaml / package-lock.json — dependencies
+```
 
-🧰 Getting Started
-Prerequisites
+---
+
+## 🧰 Getting Started
+
+### Prerequisites
 
 Make sure you have:
+- Node.js (version ≥ 14)
+- A package manager (npm, pnpm, or yarn)
 
-Node.js (version ≥ 14 or whatever you choose)
+### Installation
 
-A package manager (npm, pnpm or yarn)
-
-Installation
+```bash
 # clone the repo
-git clone https://github.com/Bhagvati-Gaikwad/Cloud-Listing.git  
-cd Cloud-Listing  
+git clone https://github.com/Bhagvati-Gaikwad/Cloud-Listing.git
+cd Cloud-Listing
 
 # install dependencies
-npm install   # or pnpm install / yarn install  
+npm install   # or pnpm install / yarn install
+```
 
-Running Locally
+### Running Locally
+
+```bash
 npm run dev
+```
+Then open `http://localhost:3000` in your browser.
 
+### Building for Production
 
-Then open http://localhost:3000 (or whatever port) in your browser.
-
-Building for Production
+```bash
 npm run build
-
-
+```
 and then
-
+```bash
 npm start
+```
 
-🎯 Usage
+---
 
-(Describe how to use the app once it’s running. E.g., create a listing, filter by provider, add reviews, etc.)
+## 🎯 Usage
 
-🛠️ Tech Stack
+Once the app is running, you can:
+- Create new listings for cloud providers
+- Browse and filter existing listings
+- Compare offerings based on pricing, region, and other metrics
 
-Front-end: React (or Next.js if used) with TypeScript
+---
 
-Styling: CSS (and perhaps PostCSS using postcss.config.mjs)
+## 🛠️ Tech Stack
 
-Structure: Modular components, custom hooks
+- **Front-end:** React / Next.js with TypeScript
+- **Styling:** CSS (with PostCSS configuration via `postcss.config.mjs`)
+- **Structure:** Modular components, reusable hooks
+- **Configuration:** `next.config.mjs`, `tsconfig.json`
 
-Builds / Configuration: next.config.mjs, etc.
+---
 
-✅ Why This Project?
+## ✅ Why This Project?
 
-Helps developers / users compare cloud offerings at a glance
+- Helps developers and users compare cloud offerings at a glance
+- Modular code-base — easy to extend or customize
+- TypeScript ensures type safety and maintainability
+- CSS-only styling keeps the UI lightweight and fast
 
-Modular code-base makes it easy to extend / customise
+---
 
-TypeScript ensures type safety and maintainability
+## 📌 Roadmap & Future Work
 
-CSS only — keeps styling lightweight and flexible
+- [ ] Add authentication (login/sign-up)
+- [ ] Enable CRUD operations for listings
+- [ ] Improve UI/UX (mobile responsive, animations)
+- [ ] Add filtering/sorting by provider / region / pricing
+- [ ] Add tests (unit / integration)
+- [ ] Deploy to Vercel / Netlify
 
-📌 Roadmap & Future Work
+---
 
- Add authentication (login/sign-up)
-
- Enable CRUD operations for listings
-
- Improve UI/UX (mobile responsive, animations)
-
- Add filtering/sorting by provider / region / pricing
-
- Add tests (unit / integration)
-
- Deploy to Vercel / Netlify
-
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 
-Fork the repository
+1. Fork the repository  
+2. Create a feature branch (`git checkout -b feature-xyz`)  
+3. Commit your changes (`git commit -m "Add xyz"`)  
+4. Push to the branch (`git push origin feature-xyz`)  
+5. Open a Pull Request  
 
-Create a feature branch (git checkout -b feature-xyz)
+Please ensure code is clean, well-commented, and follows the existing style.
 
-Commit your changes (git commit -m "Add xyz")
+---
 
-Push to the branch (git push origin feature-xyz)
+## 📄 License
 
-Open a Pull Request
+This project is licensed under the **MIT License**.  
+See the `LICENSE` file for details.
 
-Please ensure code is clean, well-commented and follows the existing style.
+---
 
-📄 License
+## 📞 Contact
 
-(Add your license info here, e.g., MIT License, Apache 2.0, etc.)
-If none specified yet, you might add LICENSE file.
+Created by **Bhagvati Gaikwad**.  
+For queries or feedback, please open an issue or reach out via [GitHub](https://github.com/Bhagvati-Gaikwad).
 
-📞 Contact
-
-Created by **Bhagvati Gaikwad. For queries or feedback, please open an issue or reach out via GitHub
